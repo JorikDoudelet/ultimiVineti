@@ -1,6 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 .app {
   background-image: url("https://firebasestorage.googleapis.com/v0/b/ultimi-vineti.appspot.com/o/images%2Fbackground.jpg?alt=media&token=4f1da2b0-b77b-4575-b441-26a7801a2df7");
   background-size: cover;
   background-attachment: fixed;
-  height: 100vh;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-family: "Montserrat";
+  scroll-behavior: smooth;
 }

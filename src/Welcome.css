@@ -1,0 +1,313 @@
+@media screen and (min-width: 320px) {
+  .welcome {
+    padding: 0px 40px 20px 40px;
+  }
+
+  .welcomeText {
+    overflow: hidden;
+  }
+
+  .socials img {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 25px;
+  }
+
+  video {
+    width: 80vw;
+    height: 50vw;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 30px;
+  }
+
+  h1 {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #4a4a4a;
+  }
+
+  h3 {
+    margin-top: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #4a4a4a;
+    line-height: 22px;
+  }
+
+  p {
+    margin-top: 15px;
+    font-size: 10px;
+    color: #4a4a4a;
+    line-height: 21px;
+    font-weight: 500;
+    width: 450px;
+  }
+
+  button {
+    background-color: #b4e298;
+    border: none;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 50px;
+    padding: 8px 30px;
+    margin-top: 20px;
+    float: right;
+    filter: drop-shadow(0px 5px 15px rgba(192, 230, 168, 0.88));
+  }
+
+  button:hover {
+    background-color: #92c771;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  video {
+    width: 83vw;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .welcomeText {
+    margin: auto;
+    width: 65vw;
+  }
+  video {
+    width: 60vw;
+    height: 40vw;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  h1 {
+    font-size: 32px;
+    margin-top: 30px;
+    margin-left: 3vw;
+  }
+
+  h3 {
+    font-size: 13px;
+    margin-left: 3vw;
+  }
+
+  p {
+    font-size: 10px;
+    line-height: 25px;
+    margin-left: 3vw;
+    width: 80vw;
+  }
+
+  .socials {
+    margin-left: 14vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .welcome {
+    padding: 0px 50px 20px 50px;
+  }
+
+  .welcomeText {
+    margin: auto;
+    width: 65vw;
+  }
+
+  video {
+    width: 60vw;
+    height: 40vw;
+  }
+
+  h1 {
+    margin-top: 40px;
+    font-size: 35px;
+  }
+
+  h3 {
+    margin-top: 20px;
+    font-size: 15px;
+  }
+
+  p {
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 28px;
+  }
+
+  .socials {
+    margin-left: 14vw;
+  }
+
+  .socials img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .welcome {
+    padding: 130px 60px 20px 60px;
+    display: block;
+    width: 800px;
+    margin: auto;
+  }
+
+  .welcomeContent {
+    display: flex;
+  }
+
+  .welcomeText {
+    width: auto;
+  }
+
+  .socials {
+    margin: 0;
+  }
+
+  .socials img {
+    width: 15px;
+    height: 15px;
+  }
+
+  video {
+    margin: 0;
+    width: 350px;
+    height: 200px;
+    margin-right: 50px;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 26px;
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 11px;
+    line-height: 35px;
+  }
+
+  p {
+    margin: 0;
+    font-size: 9px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .welcome {
+    padding: 140px 80px 20px 80px;
+    display: flex;
+    width: auto;
+    margin: 0;
+    margin-bottom: 150px;
+  }
+
+  .welcomeContent {
+    display: flex;
+    margin: auto;
+    margin-top: 0px;
+  }
+
+  .socials {
+    order: -1;
+    width: 30px;
+  }
+
+  .socials img {
+    margin-bottom: 10px;
+  }
+
+  video {
+    margin: 0;
+    margin-right: 5vw;
+    width: 380px;
+    height: 220px;
+  }
+
+  h1 {
+    font-size: 29px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+
+  p {
+    width: auto;
+    font-size: 10px;
+    width: 430px;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 25px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .welcome {
+    padding: 140px 90px 20px 90px;
+    margin-bottom: 180px;
+  }
+
+  .socials img {
+    margin-bottom: 15px;
+  }
+
+  video {
+    margin: 0;
+    margin-right: 7vw;
+    width: 400px;
+    height: 230px;
+  }
+
+  .welcomeText {
+    padding-right: 70px;
+    padding-bottom: 100px;
+  }
+
+  h1 {
+    font-size: 32px;
+    margin-bottom: 3px;
+  }
+
+  h3 {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+
+  p {
+    width: auto;
+    font-size: 11px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .welcome {
+    padding: 180px 90px 20px 90px;
+  }
+
+  video {
+    width: 500px;
+    height: 300px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 13px;
+    line-height: 30px;
+  }
+}

@@ -1,0 +1,83 @@
+.product {
+  width: 250px;
+  height: 341px;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/ultimi-vineti.appspot.com/o/images%2FwineBG.jpg?alt=media&token=39a7b2b1-638c-45b6-80fe-ac130e70f670");
+  background-size: cover;
+  border-radius: 5px;
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.16));
+  margin: auto;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.productContent img {
+  height: 200px;
+  display: block;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.productContent h3 {
+  font-size: 12px;
+  text-transform: none;
+  margin: 0;
+  line-height: 17px;
+  text-align: center;
+}
+
+.productContent p {
+  margin: 0;
+  line-height: 17px;
+  text-align: center;
+  width: auto;
+}
+
+.productButton {
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  margin: 0;
+  filter: drop-shadow(0px 3px 6px rgba(73, 73, 73, 0.16));
+  margin-right: 20px;
+  margin-top: -20px;
+  background-color: #a9d98b;
+  cursor: pointer;
+}
+
+.productButton img {
+  width: 15px;
+}
+
+.productAttributes {
+  position: absolute;
+  padding: 15px 8px;
+  background-color: white;
+  border-radius: 50px;
+  filter: drop-shadow(0px 3px 6px rgba(73, 73, 73, 0.16));
+  margin-left: -15px;
+  margin-top: 30px;
+}
+
+.productAttributes img:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.productAttributes img {
+  cursor: pointer;
+  width: 12px;
+  display: block;
+}
+
+.wineColor {
+  width: 25px;
+  height: 25px;
+  background-color: #ba99a0;
+  position: absolute;
+  margin-top: 140px;
+  margin-left: -15px;
+  border-radius: 50px;
+  border: 2.5px solid white;
+  filter: drop-shadow(0px 3px 6px rgba(73, 73, 73, 0.16));
+  cursor: pointer;
+}

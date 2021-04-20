@@ -1,27 +1,93 @@
-.header {
-  height: 130px;
-  padding: 0px 90px 0 90px;
-  display: flex;
-  justify-content: space-between;
-  position: sticky;
-  top: 0;
-  z-index: 100;
+@media screen and (min-width: 320px) {
+  .header {
+    padding: 0px 40px 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: 100px;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/ultimi-vineti.appspot.com/o/images%2FbackgroundNavSmall.jpg?alt=media&token=38ccd174-fba4-423e-9571-3910f5e72ca8");
+    background-size: cover;
+  }
+
+  .header img {
+    margin-top: 35px;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+  }
+
+  .header .logo {
+    width: 80px;
+    height: 75px;
+    left: 46.5%;
+    position: absolute;
+    display: none;
+  }
+
+  .rightNav img {
+    margin-left: 30px;
+    width: 20px;
+  }
+
+  .menuClicked .cross {
+    width: 20px;
+    margin-right: 10px;
+  }
+
+  .menuClicked a {
+    text-decoration: none;
+    color: #4a4a4a;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 20px;
+    display: block;
+  }
+
+  .menuClicked a:hover {
+    color: #6a6a6a;
+  }
 }
 
-.header img {
-  margin-top: 35px;
-  cursor: pointer;
-  width: 25px;
-  height: 25px;
+@media screen and (min-width: 480px) {
 }
 
-.header .logo {
-  width: 80px;
-  height: 75px;
-  margin-left: 90px;
+@media screen and (min-width: 600px) {
+  .menuClicked a {
+    margin-top: 0;
+    margin-left: 30px;
+    vertical-align: 6px;
+    display: inline;
+  }
 }
 
-.rightNav img {
-  margin-left: 30px;
-  width: 20px;
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 0px 50px 20px 50px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .header .logo {
+    display: block;
+  }
+  .header {
+    padding: 0px 60px 20px 60px;
+    height: 120px;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/ultimi-vineti.appspot.com/o/images%2FbackgroundNav.jpg?alt=media&token=ce716af4-b6cf-4a9a-94e6-59b6d0451c26");
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    padding: 0px 80px 20px 80px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header {
+    padding: 0px 90px 20px 90px;
+  }
 }
