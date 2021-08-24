@@ -1,0 +1,176 @@
+@media screen and (min-width: 320px) {
+  .paymentCartSmall .screenToBig {
+    display: none;
+  }
+  .paymentCartSmall {
+    margin-left: 40px;
+  }
+  .paymentCartSmall h1 {
+    font-size: 22px;
+    margin-top: 40px;
+    margin-left: 0;
+  }
+  .paymentCartSmall h3 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-transform: none;
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  .paymentCartSmall .radio input[type="radio"] {
+    display: none;
+    /*removes original button*/
+  }
+
+  .paymentCartSmall .radio label:before {
+    -webkit-appearance: inherit;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.16);
+    /*styles outer circle*/
+    content: " ";
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin: 0 5px 0 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 11px;
+    background-color: white;
+  }
+
+  .paymentCartSmall .radio label {
+    position: relative;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 11px;
+    color: #4a4a4a;
+  }
+
+  .paymentCartSmall .radio label input[type="radio"]:checked + span {
+    /*styles inside circle*/
+    border-radius: 11px;
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    top: 5px;
+    left: 4px;
+    display: block;
+    background-color: #434352;
+    transition-duration: 0.3s;
+  }
+  .paymentCartSmall .paymentIcons {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .paymentCartSmall .paymentIcons img {
+    width: 50px;
+    height: 40px;
+    background-color: white;
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.22));
+    border-radius: 10px;
+    padding: 25px 20px;
+    margin-right: 20px;
+  }
+
+  .paymentCartSmall .cardNumber {
+    width: 50vw;
+  }
+
+  .paymentCartSmall .date {
+    width: 25vw;
+    margin-right: 20px;
+  }
+  .paymentCartSmall .cvcNumber {
+    width: 20vw;
+  }
+
+  .paymentCartSmall .back {
+    position: absolute;
+    bottom: 49px;
+    right: 220px;
+    font-weight: 700;
+    font-size: 11px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .paymentCartSmall .rightCartBuyButton {
+    float: unset;
+    background: linear-gradient(45deg, #a9d98b, #cdeaba);
+    font-weight: 700;
+    font-size: 12px;
+    padding: 12px 50px;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .paymentCartSmall form {
+    margin: auto;
+    width: 75vw;
+  }
+  .paymentCartSmall .paymentIcons img {
+    width: 66px;
+    height: 54px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .paymentCartSmall form {
+    margin: auto;
+    width: 450px;
+  }
+  .paymentCartSmall .paymentIcons img {
+    width: 80px;
+    height: 64px;
+  }
+  .paymentCartSmall .cardNumber {
+    width: 300px;
+  }
+  .paymentCartSmall .date {
+    width: 160px;
+  }
+  .paymentCartSmall .cvcNumber {
+    width: 100px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 900px) {
+}
+
+@media screen and (min-width: 1024px) {
+  .paymentCartSmall form {
+    margin: auto;
+  }
+  .paymentCartSmall p {
+    width: unset;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .paymentCartSmall {
+    margin: 0;
+  }
+  .paymentCartSmall form {
+    display: none;
+  }
+  .paymentCartSmall .screenToBig {
+    display: block;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(45deg, #a9d98b, #cdeaba);
+    padding: 20px 100px;
+    border-radius: 30px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 200px;
+    cursor: pointer;
+  }
+}

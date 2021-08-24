@@ -1,0 +1,170 @@
+@media screen and (min-width: 320px) {
+  .wijnmakerContent {
+    width: 80vw;
+    margin: auto;
+    padding-bottom: 80px;
+    margin-top: 50px;
+  }
+  .wijnmakerText {
+    display: block;
+    width: 300px;
+    margin: auto;
+  }
+  .wijnmakerText p {
+    font-weight: 300;
+    font-size: 10px;
+    margin: auto;
+    white-space: normal;
+  }
+
+  .wijnmakerTitel {
+    display: flex;
+  }
+  .wijnmakerTitel img {
+    margin-right: 10px;
+    width: 7px;
+  }
+
+  .wijnmakerTitel h3 {
+    margin-top: 0;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 11px;
+    margin: 0;
+  }
+
+  .wijnmakerImages {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .wijnmakerImage {
+    width: 85px;
+    height: 65px;
+    background-color: white;
+    border-radius: 5px;
+    filter: drop-shadow(0px 20px 60px rgba(0, 0, 0, 0.2));
+  }
+
+  .wijnmakerPhotos {
+    margin-top: 20px;
+  }
+
+  .wijnmakerPhotos .photos img {
+    width: 300px;
+    height: 250px;
+    display: block;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .wijnmakerTitel {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .wijnmakerText {
+    width: 350px;
+  }
+  .wijnmakerText p {
+    text-align: center;
+  }
+  .wijnmakerImage {
+    width: 100px;
+    height: 70px;
+  }
+  .wijnmakerImages {
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .wijnmakerText {
+    width: 400px;
+  }
+  .wijnmakerText p {
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .wijnmakerContent {
+    display: flex;
+    justify-content: space-between;
+    width: 75vw;
+  }
+  .wijnmakerText p {
+    text-align: left;
+    width: unset;
+  }
+  .wijnmakerText {
+    margin: 0;
+  }
+  .wijnmakerTitel {
+    justify-content: start;
+  }
+  .wijnmakerImages {
+    width: 280px;
+    margin: 0;
+    margin-top: 30px;
+  }
+  .wijnmakerImage {
+    width: 85px;
+    height: 65px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .wijnmakerText p {
+    line-height: 28px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .wijnmaker {
+    height: 80vh;
+  }
+  .wijnmakerContent {
+    width: 60vw;
+  }
+  .wijnmakerText {
+    margin-right: 30px;
+  }
+  .wijnmakerImage {
+    width: 100px;
+    height: 70px;
+  }
+  .wijnmakerImages {
+    width: 330px;
+  }
+  .wijnmakerPhotos {
+    width: 240px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .wijnmakerContent {
+    width: 65vw;
+  }
+  .wijnmakerText {
+    margin-right: 0;
+    width: 480px;
+  }
+  .wijnmakerPhotos {
+    width: 380px;
+  }
+
+  .wijnmakerPhotos .photos img {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .wijnmakerContent {
+    margin-top: 100px;
+  }
+}

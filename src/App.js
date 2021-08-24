@@ -5,7 +5,12 @@ import Welcome from "./Welcome";
 import Wines from "./Wines";
 import Shop from "./Shop";
 import About from "./About";
+import Detailpage from "./Detailpage";
+import Cart from "./Cart";
+import DeliveryCart from "./DeliveryCart";
+import PaymentCart from "./PaymentCart";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Register from "./Register";
 
 function App() {
   return (
@@ -30,7 +35,23 @@ function App() {
           </Route>
           <Route path="/checkout">
             <Header />
-            <h1>I am the checkout</h1>
+            <Cart />
+          </Route>
+          <Route path="/detail">
+            <Header />
+            <Detailpage />
+          </Route>
+          <Route path="/deliveryCart">
+            <Header />
+            <DeliveryCart />
+          </Route>
+          <Route path="/paymentCart">
+            <Header />
+            <PaymentCart />
+          </Route>
+          <Route path="/register">
+            <Header />
+            <Register />
           </Route>
           <Route path="/">
             <Header />

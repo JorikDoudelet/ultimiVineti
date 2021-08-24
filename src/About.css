@@ -1,86 +1,81 @@
 @media screen and (min-width: 320px) {
-}
-
-@media screen and (min-width: 480px) {
-}
-
-@media screen and (min-width: 600px) {
-}
-
-@media screen and (min-width: 768px) {
-}
-
-@media screen and (min-width: 900px) {
-}
-
-@media screen and (min-width: 1024px) {
-}
-
-@media screen and (min-width: 1200px) {
-}
-
-@media screen and (min-width: 1440px) {
   .screenSize {
     width: 100vw;
-    height: calc(100vh - 130px);
+    min-height: calc(100vh - 130px);
   }
+
   .screenSize h2 {
     padding-top: 20px;
+    margin-bottom: 0;
   }
+
   .about .welcome {
-    padding-top: 10vh;
+    padding-top: 0vh;
+    margin-top: 0;
+    height: auto;
   }
 
   .scrollDown {
     display: flex;
     align-items: center;
     cursor: pointer;
-    position: absolute;
-    left: calc(50% - 100px);
-    bottom: 50px;
+    width: 170px;
+    margin: auto;
+    left: calc(50% - 80px);
+    margin-bottom: 30px;
   }
 
   .scrollDown img {
     width: 13px;
     height: 13px;
     margin-right: 10px;
+    margin-top: 15px;
   }
 
   .scrollDown p {
     font-weight: bold;
     font-size: 14px;
+    width: auto;
+    margin-left: 0;
   }
 
   .contact {
-    display: flex;
+    display: auto;
     margin: auto;
     justify-content: center;
     padding-top: 60px;
     width: 100vw;
   }
   .vragen {
-    background-color: red;
-    width: 550px;
-    height: 67vh;
+    width: 80vw;
+    height: 550px;
+    margin: auto;
   }
 
   .vragen h2 {
     margin: 0;
     padding: 0;
-    text-align: left;
+    text-align: center;
     margin-bottom: 35px;
+  }
+
+  .form {
+    margin: auto;
+    width: 75vw;
   }
 
   .title {
     font-weight: bold;
     font-size: 13px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    width: auto;
+    margin-left: 0;
   }
 
   input[type="text"] {
     margin-bottom: 20px;
     padding: 12px 25px;
-    width: 16vw;
+    width: 50vw;
     border: none;
     border-radius: 30px;
     filter: drop-shadow(0px 3px 6px rgba(73, 73, 73, 0.16));
@@ -95,6 +90,10 @@
     font-weight: 600;
   }
 
+  input[type="text"]:focus {
+    outline: none;
+  }
+
   textarea {
     margin-bottom: 20px;
     padding: 20px 25px;
@@ -105,6 +104,8 @@
     font-weight: 600;
     font-size: 11px;
     letter-spacing: 1.1px;
+    resize: none;
+    width: 65vw;
   }
 
   textarea::placeholder {
@@ -112,9 +113,272 @@
     font-weight: 600;
   }
 
+  textarea:focus {
+    outline: none;
+  }
+
+  input[type="submit"] {
+    background-color: #b4e298;
+    border: none;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 50px;
+    margin-top: 20px;
+    padding: 8px 35px;
+    float: right;
+    filter: drop-shadow(0px 5px 15px rgba(192, 230, 168, 0.88));
+  }
+
+  input[type="submit"]:hover {
+    background-color: #92c771;
+  }
+
   .rightSide {
-    background-color: blue;
-    width: 550px;
     height: 67vh;
+  }
+
+  .gegevens {
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 60px;
+  }
+
+  .gegevens h2,
+  .wanneer h2 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin: auto;
+    margin-bottom: 35px;
+    width: 80vw;
+  }
+
+  .emailadres,
+  .telefoonnummer {
+    background-color: white;
+    display: flex;
+    padding: 14px 30px;
+    border-radius: 50px;
+    filter: drop-shadow(0px 3px 6px rgba(73, 73, 73, 0.16));
+    cursor: pointer;
+  }
+
+  .telefoonnummer {
+    margin-top: 20px;
+  }
+
+  .gegevens img {
+    width: 17px;
+    height: 17px;
+    margin-left: 70px;
+    margin-top: 3px;
+  }
+
+  .emailadres p,
+  .telefoonnummer p {
+    color: #8e8e9b;
+    font-size: 13px;
+    margin: 0;
+  }
+
+  .wanneer {
+    margin-top: 30px;
+  }
+
+  .wanneerRegio {
+    display: flex;
+    margin-bottom: 3px;
+    width: 350px;
+    margin: auto;
+  }
+
+  .dag {
+    font-weight: bold;
+    margin-right: 20px;
+    width: 70px;
+  }
+
+  .regio {
+    font-weight: 600;
+    color: #656565;
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .contact {
+    padding: 0;
+  }
+
+  .wanneerRegio {
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .about video {
+    margin-top: 30px;
+  }
+
+  .emailadres,
+  .telefoonnummer {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  input[type="text"] {
+    width: 250px;
+  }
+
+  .form {
+    width: 500px;
+    margin: auto;
+  }
+
+  .form textarea {
+    width: auto;
+  }
+  .wanneerRegio {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .vragen h2 {
+    margin-top: 50px;
+  }
+
+  .scrollDown img {
+    margin-top: 20px;
+  }
+
+  .form {
+    width: 500px;
+  }
+
+  .wanneerRegio {
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .screenSize {
+    min-height: unset;
+  }
+  .scrollDown img {
+    margin-top: 0px;
+  }
+
+  .about video {
+    margin-top: 0;
+  }
+
+  .about .screenSize h2 {
+    margin-bottom: 50px;
+  }
+  .wanneerRegio {
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about .welcome {
+    margin-bottom: 30px;
+    margin-top: 0;
+  }
+
+  .about .welcomeContent {
+    margin-top: 0px;
+  }
+
+  .about .socials {
+    margin-top: -180px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about .socials {
+    margin-top: -320px;
+  }
+
+  .contact {
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    padding-top: 50px;
+  }
+
+  .vragen {
+    width: unset;
+    height: auto;
+    margin: 0;
+  }
+
+  .vragen h2 {
+    margin: 0;
+    text-align: left;
+  }
+
+  .form {
+    width: 450px;
+    margin: 0;
+  }
+
+  .gegevens {
+    width: unset;
+    margin: 0;
+  }
+
+  .emailadres,
+  .telefoonnummer {
+    width: fit-content;
+    margin-left: 0;
+  }
+
+  .wanneer h2,
+  .gegevens h2 {
+    width: unset;
+    text-align: left;
+  }
+
+  .wanneerRegio {
+    margin: 0;
+    width: unset;
+  }
+
+  .dag {
+    width: 100px;
+  }
+
+  .rightSide {
+    width: unset;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .screenSize {
+    height: calc(100vh - 150px);
+  }
+
+  .about .welcome {
+    margin-top: 100px;
+  }
+
+  .about .socials {
+    margin-top: -340px;
+  }
+
+  .scrollDown {
+    position: absolute;
+    bottom: 30px;
+  }
+
+  .contact {
+    width: 1100px;
+    margin: auto;
   }
 }

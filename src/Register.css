@@ -1,0 +1,107 @@
+@media screen and (min-width: 320px) {
+  .register {
+    background-color: white;
+    filter: drop-shadow(0px 3px 6px rgba(73, 73, 73, 0.16));
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .register .flex {
+    display: unset;
+  }
+
+  .register .leftSide {
+    height: unset;
+  }
+
+  .register .rightSide {
+    height: unset;
+  }
+
+  .register h1 {
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 25px;
+    margin-top: 0px;
+  }
+
+  .register form {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .register .inputTitle {
+    font-weight: 700;
+    font-size: 11px;
+    margin-bottom: 10px;
+  }
+
+  .register input[type="text"] {
+    width: 65%;
+    padding: 10px 25px;
+  }
+
+  .register input[type="text"]::placeholder {
+    font-size: 10px;
+  }
+
+  input[type="password"] {
+    margin-bottom: 20px;
+    padding: 12px 25px;
+    border: none;
+    width: 65%;
+    border-radius: 30px;
+    filter: drop-shadow(0px 3px 6px rgba(73, 73, 73, 0.16));
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 1.1px;
+  }
+  input[type="password"]::placeholder {
+    color: #c7c7c7;
+    font-weight: 600;
+  }
+
+  .birthdate .flex {
+    display: flex;
+  }
+
+  .birthdate input[type="text"] {
+    margin-right: 10px;
+  }
+
+  .buttons input[type="submit"] {
+    float: none;
+    margin-bottom: 30px;
+  }
+
+  .register .inputTitle {
+    width: unset;
+  }
+  .register .toLogin {
+    font-weight: 700;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 480px) {
+}
+
+@media screen and (min-width: 600px) {
+  input[type="password"] {
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 900px) {
+}
+
+@media screen and (min-width: 1024px) {
+}
+
+@media screen and (min-width: 1200px) {
+}

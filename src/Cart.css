@@ -1,0 +1,350 @@
+@media screen and (min-width: 320px) {
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #e2e2e2;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #4a4a4a;
+    border-radius: 9px;
+  }
+
+  .rightCart {
+    display: none;
+  }
+  .leftCart {
+    width: 80vw;
+    margin: auto;
+  }
+  .scrollItems {
+    height: 60vh;
+    overflow-y: scroll;
+  }
+  .betalenDiv {
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+  }
+  .totalPrice {
+    display: flex;
+    margin-left: 30px;
+  }
+
+  .totalPrice p {
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .totalPrice .price {
+    font-size: 15px;
+    margin-left: 5px;
+  }
+  .leftCartBuyButton {
+    bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background: linear-gradient(45deg, #a9d98b, #cdeaba);
+    font-weight: 700;
+    font-size: 12px;
+    padding: 12px 50px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+}
+
+@media screen and (min-width: 600px) {
+  .betalenDiv {
+    right: 60px;
+  }
+
+  .totalPrice p {
+    font-size: 18px;
+  }
+
+  .totalPrice .price {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .betalenDiv {
+    right: 80px;
+  }
+
+  .scrollItems {
+    padding: 10px;
+  }
+  .totalPrice p,
+  .totalPrice .price {
+    font-size: 15px;
+  }
+  .leftCartBuyButton {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .betalenDiv {
+    right: 90px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .betalenDiv {
+    right: 100px;
+  }
+  .cart p {
+    width: unset;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .cart .hide {
+    display: none;
+  }
+  .rightCart {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/ultimi-vineti.appspot.com/o/images%2FcartBackground.svg?alt=media&token=0b57371b-369c-4b0b-aad9-0cdbad8bfb5a");
+    width: 33vw;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: drop-shadow(-10px 0px 10px rgba(0, 0, 0, 0.06));
+  }
+  .leftCart {
+    width: 50vw;
+    margin: 0;
+    margin-left: 80px;
+  }
+  .betalenDiv {
+    right: 0;
+    left: 45vw;
+  }
+
+  .leftCartBuyButton {
+    display: none;
+  }
+
+  .leftCart h2 {
+    padding-top: 0;
+    text-align: left;
+  }
+  .scrollItems {
+    padding-right: 50px;
+  }
+  .rightCart form {
+    margin-top: 30px;
+    margin-left: 80px;
+  }
+
+  .rightCart h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .rightCart h3 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-transform: none;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  .radio input[type="radio"] {
+    display: none;
+    /*removes original button*/
+  }
+
+  .radio label:before {
+    -webkit-appearance: inherit;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.16);
+    /*styles outer circle*/
+    content: " ";
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin: 0 5px 0 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 11px;
+    background-color: white;
+  }
+
+  .radio label {
+    position: relative;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 11px;
+    color: #4a4a4a;
+  }
+
+  .radio label input[type="radio"]:checked + span {
+    /*styles inside circle*/
+    border-radius: 11px;
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    top: 5px;
+    left: 4px;
+    display: block;
+    background-color: #434352;
+    transition-duration: 0.3s;
+  }
+  .cart .sameAddressText {
+    padding: 5px 25px;
+    background-color: white;
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.12));
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 11px;
+    width: 280px;
+    color: #c7c7c7;
+  }
+  .differentAddress {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .rightCart input[type="text"] {
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+
+  .differentAddress .street {
+    width: 13vw;
+    margin-right: 20px;
+  }
+
+  .differentAddress .number {
+    width: 3vw;
+  }
+
+  .differentAddress .postal {
+    width: 5vw;
+    margin-right: 20px;
+  }
+
+  .differentAddress .city {
+    width: 10vw;
+  }
+
+  .differentAddress .country {
+    width: 7vw;
+  }
+
+  .checkbox {
+    display: inline-flex;
+    cursor: pointer;
+    position: absolute;
+    bottom: 100px;
+  }
+
+  .checkbox > span {
+    color: #4a4a4a;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 11px;
+  }
+
+  .checkbox > input {
+    height: 15px;
+    width: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    transition-duration: 0.3s;
+    background-color: white;
+    cursor: pointer;
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.22));
+    margin-right: 10px;
+  }
+
+  .checkbox > input:checked {
+    border: none;
+    background-color: #34495e;
+    width: 15px;
+    height: 15px;
+  }
+
+  .deliveryCart .rightCartBuyButton {
+    padding: 5px 50px;
+    text-transform: uppercase;
+    filter: drop-shadow(0px 5px 10px rgba(100, 214, 65, 0.32));
+  }
+
+  .rightCartBuyButton {
+    float: none;
+    background: linear-gradient(45deg, #a9d98b, #cdeaba);
+    font-weight: 700;
+    font-size: 12px;
+    padding: 12px 50px;
+    margin-left: 5vw;
+    position: absolute;
+    bottom: 40px;
+    border-radius: 30px;
+    color: White;
+  }
+
+  .rightCartBuyButton:hover {
+    background: linear-gradient(45deg, #9cd678, #bfe4a7);
+  }
+  .paymentIcons {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .paymentIcons img {
+    width: 4vw;
+    height: 3.2vw;
+    background-color: white;
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.22));
+    border-radius: 10px;
+    padding: 25px 20px;
+    margin-right: 20px;
+  }
+
+  .paymentCart .radio {
+    margin-bottom: 10px;
+  }
+
+  .vervaldatum .cardNumber {
+    width: 100px;
+    margin-right: 60px;
+  }
+
+  .cvc .cvcNumber {
+    width: 60px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .rightCartBuyButton {
+    margin-left: 7vw;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .rightCartBuyButton {
+    margin-left: 10vw;
+  }
+}

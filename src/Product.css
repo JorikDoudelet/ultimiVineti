@@ -24,6 +24,8 @@
   margin: 0;
   line-height: 17px;
   text-align: center;
+  font-family: "Sprat";
+  font-weight: 700;
 }
 
 .productContent p {
@@ -31,6 +33,14 @@
   line-height: 17px;
   text-align: center;
   width: auto;
+  font-family: "Sprat";
+  font-weight: 600;
+  font-size: 9px;
+}
+
+.productContent .price {
+  font-family: "Montserrat";
+  font-size: 11px;
 }
 
 .productButton {

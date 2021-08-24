@@ -1,5 +1,6 @@
 import React from "react";
 import "./Product.css";
+import { Link } from "react-router-dom";
 
 function Product() {
   return (
@@ -30,12 +31,14 @@ function Product() {
         <p>Italy, Piemonte</p>
         <p className="price">€ 10.50</p>
       </div>
-      <button className="productButton">
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/ultimi-vineti.appspot.com/o/images%2FarrowButton.svg?alt=media&token=e4c3f052-01da-41fd-bcdb-136b12172259"
-          alt="go to productpage"
-        />
-      </button>
+      <Link to="/detail">
+        <button className="productButton">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/ultimi-vineti.appspot.com/o/images%2FarrowButton.svg?alt=media&token=e4c3f052-01da-41fd-bcdb-136b12172259"
+            alt="go to productpage"
+          />
+        </button>
+      </Link>
     </div>
   );
 }

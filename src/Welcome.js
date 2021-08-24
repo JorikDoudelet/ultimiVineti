@@ -25,7 +25,9 @@ function Welcome() {
             qui officia deserunt mollit <br />
             anim id est laborum.
           </p>
-          <button>Shop</button>
+          <Link to="/shop">
+            <button>Shop</button>
+          </Link>
         </div>
       </div>
       <div className="socials">

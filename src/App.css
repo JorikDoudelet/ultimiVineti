@@ -9,3 +9,8 @@
   font-family: "Montserrat";
   scroll-behavior: smooth;
 }
+
+h2 {
+  font-family: "Sprat";
+  font-weight: 700;
+}
