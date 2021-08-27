@@ -5,6 +5,8 @@
     border-radius: 10px;
     margin-left: 40px;
     margin-right: 40px;
+    margin-top: 10px;
+    display: block;
   }
   .register .flex {
     display: unset;
@@ -29,6 +31,7 @@
   .register form {
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 30px;
   }
 
   .register .inputTitle {
@@ -38,8 +41,8 @@
   }
 
   .register input[type="text"] {
-    width: 65%;
     padding: 10px 25px;
+    width: 43vw;
   }
 
   .register input[type="text"]::placeholder {
@@ -50,7 +53,7 @@
     margin-bottom: 20px;
     padding: 12px 25px;
     border: none;
-    width: 65%;
+    width: 43vw;
     border-radius: 30px;
     filter: drop-shadow(0px 3px 6px rgba(73, 73, 73, 0.16));
     font-family: "Montserrat";
@@ -69,11 +72,14 @@
 
   .birthdate input[type="text"] {
     margin-right: 10px;
+    width: 2vw;
   }
 
   .buttons input[type="submit"] {
     float: none;
-    margin-bottom: 30px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
   }
 
   .register .inputTitle {
@@ -86,21 +92,229 @@
 }
 
 @media screen and (min-width: 480px) {
+  .register input[type="text"] {
+    width: 60vw;
+  }
+  .register input[type="password"] {
+    width: 60vw;
+  }
+  .birthdate input[type="text"] {
+    margin-right: 10px;
+    width: 11vw;
+  }
 }
 
 @media screen and (min-width: 600px) {
-  input[type="password"] {
-    width: 250px;
+  .register input[type="password"] {
+    width: 65vw;
+  }
+
+  .register input[type="text"] {
+    width: 65vw;
+  }
+
+  .register p {
+    margin-left: 0px;
+  }
+
+  .register .flex {
+    display: flex;
+  }
+
+  .flex div {
+    margin-right: 3vw;
+  }
+
+  .flex .street input[type="text"] {
+    width: 45vw;
+  }
+
+  .flex .number input[type="text"] {
+    width: 8vw;
+  }
+
+  .flex .postal input[type="text"] {
+    width: 10vw;
+  }
+  .flex .city input[type="text"] {
+    width: 15vw;
+  }
+  .flex .country input[type="text"] {
+    width: 17vw;
+  }
+  .flex .phone input[type="text"] {
+    width: 17vw;
+  }
+  .birthdate input[type="text"] {
+    margin-right: 10px;
+    width: 6vw;
+  }
+
+  .buttons input[type="submit"] {
+    margin: 0;
+  }
+
+  .toLogin {
+    margin-top: 4px;
+    margin-right: 20px;
+  }
+
+  .register .buttons {
+    margin-top: 20px;
+    justify-content: flex-end;
   }
 }
 
 @media screen and (min-width: 768px) {
+  .register form {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .register input[type="text"] {
+    width: 70vw;
+  }
+  .register input[type="password"] {
+    width: 70vw;
+  }
+  .flex .street input[type="text"] {
+    width: 50vw;
+  }
+
+  .flex .number input[type="text"] {
+    width: 10vw;
+  }
+
+  .flex .postal input[type="text"] {
+    width: 13vw;
+  }
+  .flex .city input[type="text"] {
+    width: 18vw;
+  }
+  .flex .country input[type="text"] {
+    width: 20vw;
+  }
+  .flex .phone input[type="text"] {
+    width: 24vw;
+  }
+  .birthdate input[type="text"] {
+    width: 7vw;
+  }
 }
 
 @media screen and (min-width: 900px) {
+  .register {
+    width: 850px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .flexForm {
+    display: flex;
+  }
+  .flex div {
+    margin-right: 0;
+  }
+  .register input[type="text"] {
+    width: 20vw;
+  }
+  .register input[type="password"] {
+    width: 20vw;
+  }
+  .register .vl {
+    background-color: #4a4a4a;
+    height: 100px;
+    padding: 1px;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 80px;
+  }
+  .flex .street input[type="text"] {
+    width: 26vw;
+    margin-right: 20px;
+  }
+
+  .flex .number input[type="text"] {
+    width: 6vw;
+  }
+
+  .flex .postal input[type="text"] {
+    width: 5vw;
+    margin-right: 20px;
+  }
+  .flex .city input[type="text"] {
+    width: 11vw;
+    margin-right: 20px;
+  }
+  .flex .country input[type="text"] {
+    width: 8vw;
+  }
+  .flex .phone input[type="text"] {
+    width: 13vw;
+    margin-right: 20px;
+  }
+  .birthdate input[type="text"] {
+    width: 2vw;
+  }
 }
 
 @media screen and (min-width: 1024px) {
+  .register form {
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+
+  .register {
+    width: 950px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  .register input[type="text"] {
+    width: 220px;
+  }
+  .register input[type="password"] {
+    width: 220px;
+  }
+  .flex .street input[type="text"] {
+    width: 250px;
+    margin-right: 20px;
+  }
+
+  .flex .number input[type="text"] {
+    width: 50px;
+  }
+
+  .flex .postal input[type="text"] {
+    width: 50px;
+    margin-right: 20px;
+  }
+  .flex .city input[type="text"] {
+    width: 110px;
+    margin-right: 20px;
+  }
+  .flex .country input[type="text"] {
+    width: 70px;
+  }
+  .flex .phone input[type="text"] {
+    width: 120px;
+    margin-right: 20px;
+  }
+  .birthdate input[type="text"] {
+    width: 20px;
+  }
+
+  .toLogin {
+    width: unset;
+  }
+  .register .buttons {
+    margin-top: 50px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
