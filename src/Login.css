@@ -1,0 +1,150 @@
+.login {
+  min-width: 100vw;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/ultimi-vineti.appspot.com/o/images%2FbackgroundLogin.jpg?alt=media&token=2c5a3bc0-9f7e-4667-908d-a06292b73f6b");
+  background-size: cover;
+}
+
+@media screen and (min-width: 320px) {
+  .login {
+    padding-top: 100px;
+  }
+  .login .backButton {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+
+  .login .backButton img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .login .flex {
+    display: unset;
+  }
+  .login .leftSide {
+    padding-top: 30px;
+  }
+
+  .login .leftSide h2 {
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .login .indicator {
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 30px;
+    background-color: #434352;
+    margin-top: 7px;
+    filter: drop-shadow(0px 3px 6px rgba(73, 73, 73, 0.16));
+  }
+  .login .reasons {
+    width: 200px;
+    margin: auto;
+  }
+  .login .reason {
+    padding: 0;
+    margin: 0;
+    font-size: 11px;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .login .leftSide .flex {
+    display: flex;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .login .rightSide {
+    width: 230px;
+    padding: 30px 40px;
+    height: unset;
+    display: block;
+    margin: auto;
+    background-color: white;
+    filter: drop-shadow(0px 3px 6px rgba(73, 73, 73, 0.16));
+    border-radius: 10px;
+  }
+  .login .rightSide form h1 {
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+  .login .inputTitle {
+    font-weight: 700;
+    font-size: 11px;
+    margin-bottom: 10px;
+    margin-left: 0;
+  }
+  .login input[type="text"] {
+    padding: 10px 25px;
+    width: 180px;
+  }
+  .login input[type="password"] {
+    padding: 10px 25px;
+    width: 180px;
+  }
+  .login input[type="submit"] {
+    float: none;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    padding: 9px 45px;
+  }
+  .login .toRegister {
+    font-weight: 700;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 12px;
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .login .leftSide h2 {
+    width: 330px;
+  }
+  .login .rightSide {
+    width: 280px;
+  }
+  .login input[type="text"] {
+    width: 230px;
+  }
+  .login input[type="password"] {
+    width: 230px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .login .leftSide h2 {
+    width: 330px;
+  }
+  .login .rightSide {
+    width: 350px;
+  }
+  .login input[type="text"] {
+    width: 300px;
+  }
+  .login input[type="password"] {
+    width: 300px;
+  }
+  .login .reasons {
+    width: 230px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 900px) {
+}
+
+@media screen and (min-width: 1024px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
